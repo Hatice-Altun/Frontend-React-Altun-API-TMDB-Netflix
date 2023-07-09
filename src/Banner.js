@@ -4,7 +4,6 @@ import requests from "./Requests";
 import "./Banner.css";
 
 function Banner() {
-
     const [movie, setMovie] = useState([]);
 
     useEffect(() => {
